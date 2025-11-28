@@ -1,4 +1,47 @@
-Terms of Service — LUMI AGENT
+4. App Review Submission Text
+
+App Review – Explanation of Integration
+
+Our web application “LUMI AGENT” automates the management and publication of music and social media videos.
+The integration with TikTok uses the TikTok Content Posting API exclusively.
+
+Flow of the integration:
+
+The user logs in via Login with TikTok (OAuth).
+
+After granting permission, our system receives an upload token.
+
+The user uploads a video, or the app automatically creates a Short clip.
+
+The video is sent to TikTok via the /post/publish/video endpoint.
+
+The system automatically attaches title, tags, and description.
+
+The user may optionally schedule a future post.
+
+Scopes Used:
+
+video.upload
+
+video.publish
+
+user.info.basic (optional, used only to display username/avatar)
+
+What our app does NOT use:
+
+No reading of inbox / messages
+
+No access to follower lists
+
+No automatic social graph collection
+
+No data sharing with third parties
+
+Storage & Privacy
+Only upload tokens and the user's own uploaded videos are stored.
+No user data is sold, shared, or analyzed beyond posting functionality.
+
+This version contains initial TikTok API integration and basic upload automation.Terms of Service — LUMI AGENT
 
 Welcome to LUMI AGENT.
 By using this website and its automation features, you agree to the following terms:
